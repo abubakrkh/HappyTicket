@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="ВВЕДИТЕ НОМЕР ВАШЕГО БИЛЕТА"
+        android:textColor="#0080B5"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="377dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/textView"
+        android:hint="Ввод номера билета"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:background="#222196F3"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="384dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#0080B5"
+        android:gravity="center"
+        android:text="Проверить"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="374dp"
+        android:layout_height="173dp"
+        android:layout_below="@+id/button"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="#0F000000"
+        android:gravity="center"
+        android:text="Вывод информации"
+        android:textColor="#0080B5"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
